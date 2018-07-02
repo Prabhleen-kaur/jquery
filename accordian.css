@@ -1,0 +1,108 @@
+.parent{
+	font-size: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.heading{
+
+   font-size: 3rem;
+   width:50vw;
+  height: 10vh;
+ text-align: center;
+ font-style: italic;
+ padding: 1vw;
+ font-weight: bolder;
+ font-family: serif;
+ position: relative;
+ margin-left: 20vw;
+}
+.b1 {
+ width:50vw;
+  height: 10vh;
+   font-size: 3rem;
+   margin-left:20vw;
+
+}
+.paragraph{
+margin-left: 20vw;
+margin-right: 28vw;
+font-size: 1.5rem;
+ border: 1vh gray double;
+ background-color: LightGray;
+}
+.b2 {
+ width:50vw;
+  height: 10vh;
+   font-size: 3rem;
+   margin-left:20vw;
+
+}
+.paragraph1{
+margin-left: 20vw;
+margin-right: 28vw;
+font-size: 1.5rem;
+ border: 1vh gray double;
+ background-color: LightGray;
+}
+.b3 {
+ width:50vw;
+  height: 10vh;
+   font-size: 3rem;
+   margin-left:20vw;
+
+}
+.paragraph2{
+margin-left: 20vw;
+margin-right: 28vw;
+font-size: 1.5rem;
+ border: 1vh gray double;
+ background-color: LightGray;
+}
+button:hover{
+background-color:gray;
+}
+ @media screen and (min-width: 480px) and (max-width: 1090px)
+{
+	.b1 {
+ 
+   font-size: 1.5rem;
+   margin-left:20vw;
+   font-weight: bold;
+
+}
+.b2 {
+ 
+   font-size: 1.5rem;
+   margin-left:20vw;
+ font-weight: bold;
+}
+.b3 {
+ 
+   font-size: 1.5rem;
+   margin-left:20vw;
+ font-weight: bold;
+}
+}
+  @media screen and (max-width: 480px)
+{
+	.b1 {
+ 
+   font-size: 1rem;
+   margin-left:20vw;
+   font-weight: bold;
+
+}
+.b2 {
+ 
+   font-size: 1rem;
+   margin-left:20vw;
+ font-weight: bold;
+}
+.b3 {
+ 
+   font-size: 1rem;
+   margin-left:20vw;
+ font-weight: bold;
+}
+}

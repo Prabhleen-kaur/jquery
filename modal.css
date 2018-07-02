@@ -1,0 +1,45 @@
+
+:root{
+	font-size: 16px;
+	}
+.parent{
+	font-size: 16px;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+}
+.b1{
+	
+	font-size: 2rem;
+	margin-left: 40%;
+}
+.heading{
+	text-align: center;
+}
+.parent1{
+	margin-left: 40%;
+	margin-top: 20%;
+    border: 1px solid black;
+    width: 30%;
+    background-color: LightGray;
+}
+.icon{
+	margin-left: 50%;
+	color: black;
+}
+.close{
+margin-left: 74%;
+background-color: gray;
+font-size: 2rem;
+ border: 1px solid black;
+}
+@media screen and (max-width: 600px) {
+ 	.parent1{
+ 		font-size: 1rem;
+ 		width: 70%;
+ 		margin-left: 10%;
+ 	}
+ 	.b1{
+ 		margin-left: 10%;
+ 	}
+ }
