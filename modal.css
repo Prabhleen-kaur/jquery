@@ -30,7 +30,7 @@
 .close{
 margin-left: 74%;
 background-color: gray;
-font-size: 2rem;
+font-size: 1rem;
  border: 1px solid black;
 }
 @media screen and (max-width: 600px) {
@@ -41,5 +41,15 @@ font-size: 2rem;
  	}
  	.b1{
  		margin-left: 10%;
+ 	}
+ 	.close{
+ 		font-size: 1rem;
+
+ 	}
+ 	.heading{
+font-size: 2rem;
+ 	}
+ 	.icon{
+ 		margin-left: 30%;
  	}
  }
